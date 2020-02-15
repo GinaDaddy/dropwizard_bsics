@@ -1,4 +1,6 @@
 # general
+target/
+dependency-reduced-pom.xml
 
 # intelliJ
 .idea/
