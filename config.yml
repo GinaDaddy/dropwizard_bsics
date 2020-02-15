@@ -1,3 +1,8 @@
+#STEP 1. Jackson will find the JSON object "messageQueue", then set its host and port
+messageQueue:
+  host: mq.example.com
+  port: 5673
+
 logging:
   level: INFO
   loggers:
