@@ -1,3 +1,9 @@
+# STEP 2: Add fields based on the fields defined in HelloWorldConfiguration
+# HelloWorldConfiguration have "template" and "defaultName".
+# Jackson will deserialize them to HelloWorldConfiguration instance
+template: Hello, %s!
+defaultName: Stranger
+
 logging:
   level: INFO
   loggers:
